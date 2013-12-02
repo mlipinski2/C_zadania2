@@ -17,7 +17,7 @@ if podano_liczbe_parzysta {
 printf("Parzyste liczby w tablicy to: ");
 for (i = 0; i < 6; i++)
 {
-  if(tab[i] % 2 == 0)
+  if(tab[i] % 2 == 0) /* sprawdzenie czy jest parzysta */
   {
     printf("%d", tab[i]);
   }
