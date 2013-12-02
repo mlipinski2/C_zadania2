@@ -6,7 +6,7 @@ int main() {
 	int w = 0;
 
 	while  (w < 5) {
-		rysuj_gwiazdki("* "):
+		rysuj_gwiazdki("* "): /*perzesuniecie o * ze spacja*/
 		rysuj_gwiazdki(" *");
 		++w;
 	}
