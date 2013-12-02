@@ -12,7 +12,7 @@ int main() {
         printf("Suma wynosi: %.2lf\n", x);
 
         x = a * b * c;
-        printf("Iloczyn wynosi: %.2lf\n", x);
+        printf("Iloczyn wynosi: %.2lf\n", x); /*warunek 1*/
 
         min = a;
         if (b < min){
@@ -22,7 +22,7 @@ int main() {
                 min = c;
         }
 
-        printf("Najmniejsza liczba to: %.2lf\n", min);
+        printf("Najmniejsza liczba to: %.2lf\n", min); /*warunek 2*/
 
         max = a;
         if (b > max){
