@@ -5,7 +5,7 @@ int wczytaj_dane(int tablica[], int k) {
   while (i < k) {
     printf("Podaj liczbę: ");
     scanf("%d", &tablica[i]);
-    if (tab[i] %2 == 0)
+    if (tab[i] %2 == 0) /* spr parzystosci */
     	podano_liczbe_parzysta = 1;
     ++i;
   }
@@ -22,7 +22,7 @@ int main(void) {
 		printf("Parzyste liczby w tablicy to: ");
 		for (i = 0; i < 6; i++)
 {
-  if(tab[i] % 2 == 0)
+  if(tab[i] % 2 == 0) /* spr parzystosci */
   {
     printf("%d", tab[i]);
   }
