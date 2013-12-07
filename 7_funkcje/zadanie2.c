@@ -31,5 +31,5 @@ long silnia(int x)
   for (a = 1; a <= x; a++)
     out = out * a;
  
-  return result;
+  return out;
 }

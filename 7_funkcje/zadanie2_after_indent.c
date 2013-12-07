@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-long silnia (int);
+long silnia(int);
 
 int
 main ()
@@ -17,15 +17,14 @@ main ()
   else
     {
 
-      printf ("%d! = %ld\n", liczba_naturalna, silnia (liczba_naturalna));
+      printf ("%d! = %ld\n", liczba_naturalna, silnia(liczba_naturalna));
 
     }
   return 0;
 
 }
 
-long
-silnia (int x)
+long silnia(int x)
 {
   int a;
   long out = 1;
@@ -33,5 +32,5 @@ silnia (int x)
   for (a = 1; a <= x; a++)
     out = out * a;
 
-  return result;
+  return out;
 }
