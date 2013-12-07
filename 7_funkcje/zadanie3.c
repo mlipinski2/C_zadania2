@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
 int liczba, i, suma;
-printf("Liczby doskonale pomiedzy 1 a 10000: \n");
-for (liczba = 1; liczba <= 10000; liczba++) 
+ printf ("Liczby doskonałe w przedziale 1=><=10000: \n");
+  for (liczba = 1; liczba <= 10000; liczba++) /*petla*/
  {   
  i = 1;
  suma = 0;
