@@ -1,21 +1,13 @@
 #include <stdio.h>
 #include <math.h>
-double c (double a, double b);
-int
-main (void)
-{
-double a, b;
-printf ("Podaj długość boku a:\n");
-canf ("%lf", &a);
-printf ("Podaj długość boku c:\n");
-scanf ("%lf", &b);
-printf ("%lf \n", c);
-return (0);
+int main (void){
+    double a, b, c;
+    printf("Podaj długość boku a:\n");
+    scanf("%lf", &a);
+    printf("Podaj długość boku b:\n");
+    scanf("%lf", &b);
+    c = hypot(a, b);
+    printf("Dlugość boku c:\n%lf\n", c);
+return(0);
 }
-double
-c (double a, double b)
-{
-double out;
-out = hypotf (a, b);
-return out;
-}
+
