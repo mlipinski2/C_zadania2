@@ -5,7 +5,7 @@ long silnia(int);
 int main()
 {
   int liczba_naturalna;
-  long silnia = 1;
+/*  long silnia = 1; */
 
   printf ("Podaj liczbę naturalną z której obliczymy silnię:\n");
   scanf ("%d", &liczba_naturalna);
@@ -23,7 +23,7 @@ int main()
 
 }
 
-long silnia(int x);
+long silnia(int x)
 {
   int a;
   long out = 1;
