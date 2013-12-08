@@ -1,5 +1,5 @@
 #include <stdio.h>
-int odwrocona(int a);
+void  inverted(int x);
 
 int main()
 {
@@ -7,19 +7,14 @@ int main()
   printf("Wprowadź liczbę całkowitą:\n");
   scanf("%d\n", &a);
 
-  printf("%d\n", odwrocona(a));
+  printf("%d\n", inverted(a));
 
   return 0;
 }
 
-int odwrocona(int a)
-{
-  int b = 0;
-
+void inverted(int x) {
   while (a > 0) {
-    b = b * 10 + a % 10;
+    prinft("%d", a % 10);
     a = a / 10;
   }
-
-  return b;
 }

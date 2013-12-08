@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-long silnia(int);
+long long int silnia (int);
 
-int main()
+int
+main ()
 {
   int liczba_naturalna;
   printf ("Podaj liczbę naturalną z której obliczymy silnię:\n");
@@ -12,20 +13,23 @@ int main()
 
     printf ("Liczba musi być wieksza od zera.\n");
   else
-    
+    {
 
-      printf ("%d! = %ld\n", liczba_naturalna, silnia(liczba_naturalna));
+      printf ("%d! = %lli\n", liczba_naturalna, silnia (liczba_naturalna));
 
-    
+    }
   return 0;
 
 }
 
-long silnia(int x)
+long long int
+silnia (int x)
 {
   int a;
-  long out = 1;
+  long long int out = 1;
+
   for (a = 1; a <= x; a++)
     out = out * a;
+
   return out;
 }
