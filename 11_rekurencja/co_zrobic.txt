@@ -1,3 +1,1 @@
-do zrobienia 3 badz wiecej zadan.
-
-do sprawdzenia elementarz2 i 3 - sa tam zadania ktore beda sprawdzac znajomosc C.
+do zrobienia 2 badz wiecej zadan z rekurencji oraz dwa z elementarza 2 i 3.
