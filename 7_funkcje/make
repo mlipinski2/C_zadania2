@@ -1,5 +1,5 @@
-#CFLAGS=-Wall -g
-#LDLIBS=-lm /* lnkowanie */
+CFLAGS=-g -Wall -std=gnu99
+LDLIBS=-lm
 #LDFLAGS=-lm
 all: zadanie2 zadanie3
 clean: 
