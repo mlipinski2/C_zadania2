@@ -23,7 +23,7 @@ int main() {
 
 void prostokat(int szerokosc, int wysokosc) {
   podstawa(szerokosc);
-  boki(szerokosc, wysokosc - 2);
+  boki(wysokosc - 2);
   podstawa(szerokosc);
 }
 
@@ -39,6 +39,9 @@ void boki(wysokosc) {
 	for(i = 0; i < wysokosc; i++)
 		putchar('*');
 		putchar(' ');
+		putchar(' ');
+		putchar(' ');
+		putchar('*');
 
 }
 

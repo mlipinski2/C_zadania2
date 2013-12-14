@@ -3,7 +3,7 @@ LDLIBS=-lm
 #LDFLAGS=-lm
 all:	clean
 clean:	
-	rm -f zadanie2 zadanie3
+	rm -f zadanie1
 #zadanie2:	zadanie2_after_indent.c
 #	cc -Wall zadanie2_after_indent.c -o zadanie2
 #zadanie3:	zadanie_after_indent.c
