@@ -1,3 +1,5 @@
+/* brak rozwiazania rekurencyjnego, jest to rozw iteracyjne */
+
 #include<stdio.h>
 
 int nwd(int a, int b);
