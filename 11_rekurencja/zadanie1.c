@@ -1,8 +1,10 @@
 #include <stdio.h>
 
-int main(void){
+int sil (int a, int b);
 
-    int a, b, sil;
+int main(){
+
+    int a, b;
     long long int out;
     printf("podaj liczbe której potęgę bedziemy obliczać: ");
     scanf("%d", &a);
@@ -13,15 +15,13 @@ int main(void){
     return 0;
 }
 
-int b (int a)
-{
-  int sil;
+int sil (int a, int b) {
   if (a<0) {
      return 0;
      } 
   if (a==0 || a==1) {
      return 1;
      }
-  sil = a*b(a-1);
+  sil = a*b(b-1);
   return sil;
 }
