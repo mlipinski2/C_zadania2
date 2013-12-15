@@ -17,4 +17,5 @@ int main(void) {
   printf("Podaj wartość k: ");
   scanf("%d", &k);
   printf("%d\n", newton(x, y));
+  return 0;
 }
