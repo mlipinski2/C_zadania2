@@ -2,13 +2,13 @@
 
 int main(void){
 
-    int a, b, sil, silnia;
+    int a, b;
     long long int out;
     printf("podaj liczbe której potęgę bedziemy obliczać: ");
     scanf("%d", &a);
     printf("podaj wartość potęgi: ");
     scanf("%d", &b);
-    out = sil(a,b);  
+    out = silnia(a,b);  
     printf("wynik z %d do potęgi %d to: %lld \n", a, b, out);
     return 0;
 }
