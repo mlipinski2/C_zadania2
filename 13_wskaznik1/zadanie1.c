@@ -6,5 +6,5 @@ int main () {
   int indeks;
 
   for (indeks = 0, wsk = ref; indeks < 4; indeks++, wsk++)
-    printf("%d %d %ld\n", ref[indeks], *wsk, *(ref+1));
+    printf("%d %d\n", ref[indeks], *wsk);
 }
