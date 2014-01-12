@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdarg.h>
 #define MAX 512
 
     int main(void){
