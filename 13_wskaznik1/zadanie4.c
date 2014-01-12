@@ -1,11 +1,6 @@
 #include <stdio.h>
 #include <stdarg.h>
 
-/*
-Program prosi o podanie 5 liczb.
-Funkcja min_max wypisuje maksymalna oraz
-minimalna wartosc z podanych 5 cyfr.
-*/
 void min_max(int *a);
 
 int main(void){
@@ -33,5 +28,5 @@ void min_max(int *a){
     if (max <*(a+i))
        max = *(a+i);
     }
-        printf("min %d max %d\n roznica %d\n", min, max, (max-min));
+        printf("max %d min %d\n roznica %d\n", max, min, (max-min));
 }
