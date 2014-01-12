@@ -33,5 +33,5 @@ void min_max(int *a){
     if (max <*(a+i))
        max = *(a+i);
     }
-        printf("min %d max %d\n suma %d\n", min, max, (min+max));
+        printf("min %d max %d\n roznica %d\n", min, max, (max-min));
 }
