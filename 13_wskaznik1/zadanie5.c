@@ -1,8 +1,13 @@
 #include <stdio.h>
-#include <stdlib.h>
-int main(void) {
-         int tab[512];
-         int i;
-         for(i=0; i < ARRAY_SIZE(tab); ++i) tab[i] = 128;
-         return 0;
+#include <stdarg.h>
+#define MAX 512
+
+    int main(void){
+    int i, *p, a[MAX];
+    i = 0;
+    p = &a[0];
+    for (i=0 ; i < MAX; i++){
+        *(p+i) = 128;
+    }
+    printf("Dla %d ostatnia wartosc to %d\n", *p, *(p+(MAX-1)));
 }
